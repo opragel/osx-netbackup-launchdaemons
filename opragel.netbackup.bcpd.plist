@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>org.netbackup.bcpd</string>
+    <key>Program</key>
+    <string>/usr/openv/netbackup/bin/bpcd</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/openv/netbackup/bin/bpcd</string>
+        <string>-standalone</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
